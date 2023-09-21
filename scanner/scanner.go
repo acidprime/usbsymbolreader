@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/pteich/hid"
-	"github.com/pteich/usbsymbolreader/code"
+	"github.com/acidprime/usbsymbolreader/code"
 )
 
 // Scanner describes the symbol scanner device
