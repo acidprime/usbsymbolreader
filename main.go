@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"github.com/pteich/hid"
-	"github.com/pteich/usbsymbolreader/scanner"
+	"github.com/acidprime/usbsymbolreader/scanner"
 	"log"
 	"os"
 	"os/signal"
