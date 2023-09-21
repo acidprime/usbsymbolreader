@@ -1,4 +1,4 @@
-module github.com/pteich/usbsymbolreader
+module github.com/acidprime/usbsymbolreader
 
 go 1.12
 
