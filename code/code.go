@@ -130,7 +130,7 @@ func New(input []byte) (*Code, error) {
 		codeBufferEnd = bufferLength - 2
 	}
         if len(code.input) < 3 {
-		return code, errors.new("Input format not valid")
+		return code, errors.New("Input format not valid")
 	}
 	for i := 3; i < int(codeBufferEnd); i++ {
 		if code.IsNumeric && code.Type != UPCE {
